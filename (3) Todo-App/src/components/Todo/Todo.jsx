@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Todo.css'; // Import the CSS file for styles
+import './Todo.css';
 
 const Todo = (props) => {
 
