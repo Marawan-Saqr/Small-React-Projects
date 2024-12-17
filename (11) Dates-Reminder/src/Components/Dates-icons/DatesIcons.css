@@ -1,0 +1,19 @@
+.box-container .box-data {
+  background-color: #ededed;
+  border: 2px solid orangered;
+  border-radius: 5px;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+/* Image Styling */
+.box-container img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+/* Data Item Styling */
+.data-item {
+  padding: 10px 0;
+}
