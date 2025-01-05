@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Make sure Bootstrap CSS is imported
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Cards = ({ data }) => {
   return (
@@ -25,5 +25,8 @@ const Cards = ({ data }) => {
     </div>
   );
 }
+
+
+
 
 export default Cards;
