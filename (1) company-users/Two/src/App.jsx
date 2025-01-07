@@ -1,4 +1,4 @@
-import Card from './Components/Card.jsx';
+import CardView from './Components/Card.jsx';
 import { items } from './Data.js';
 import { useState } from 'react';
 import { Container } from 'react-bootstrap';
@@ -11,7 +11,7 @@ function App() {
 
   return (
     <Container>
-      <Card itemData={itemData} />
+      <CardView itemData={itemData} />
     </Container>
   )
 };

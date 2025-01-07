@@ -1,7 +1,8 @@
 import React from 'react';
-import { Row, Col, Card } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
+import { Card as BootstrapCard } from 'react-bootstrap';
 
-const Card = ({ itemData }) => {
+const CardView = ({ itemData }) => {
   return (
     <div className="mt-5">
       <Row className="g-4">
@@ -45,4 +46,4 @@ const Card = ({ itemData }) => {
 
 
 
-export default Card;
+export default CardView;
