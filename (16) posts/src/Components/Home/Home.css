@@ -1,0 +1,15 @@
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title h1 {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.title h1 span {
+  color: red;
+}
