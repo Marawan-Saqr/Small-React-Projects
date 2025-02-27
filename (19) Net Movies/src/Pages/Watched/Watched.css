@@ -1,0 +1,28 @@
+.watched-list {
+  padding: 20px;
+}
+
+.watched-list .watched-movie {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.watched-list .movie-poster {
+  width: 150px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.watched-list .movie-info {
+  max-width: 600px;
+}
+
+.watched-list .movie-info h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.watched-list .movie-info p {
+  margin: 5px 0;
+}

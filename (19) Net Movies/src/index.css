@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  font-family: "Almarai", serif;
+  font-weight: 700;
+}
+
+h2 {
+  color: #fff;
+}
+
+h4 {
+  color: #fff;
+  margin: 20px 0px;
+}
+
+p {
+  color: #747474;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}

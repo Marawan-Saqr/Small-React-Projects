@@ -1,0 +1,11 @@
+nav {
+  border-bottom: 3px solid red;
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+}
+
+.navbar .nav-link:hover {
+  color: red !important;
+}
