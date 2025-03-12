@@ -1,11 +1,11 @@
 import "./Post.css";
 
-const Post = () => {
+const Post = ({title, description}) => {
   return (
     <div className="post mb-4">
-      <h2>This Is The Post Title</h2>
+      <h2>{title}</h2>
       <hr />
-      <p>This Is The Post Body</p>
+      <p>{description}</p>
     </div>
   );
 };

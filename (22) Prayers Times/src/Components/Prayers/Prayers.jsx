@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import PrayersCard from "./PrayersCard/PrayersCard.jsx";
 
-const Prayers = () => {
+const Prayers = ({ selectCity }) => {
 
   // Component States
   const prayersObject = [
@@ -43,7 +43,7 @@ const Prayers = () => {
 
   // Get Prayers Times
   const getPrayersTimes = async () => {
-    const response = await axios.get("https://api.aladhan.com/v1/timingsByCity/03-09-2024?city=Eg&country=Cairo");
+    const response = await axios.get(`https://api.aladhan.com/v1/timingsByCity/03-09-2024?city=Eg&country=${selectCity}`);
     setPrayersTime(response.data.data.timings);
   }
 
@@ -51,7 +51,7 @@ const Prayers = () => {
   // UseEffect
   useEffect(()=> {
     getPrayersTimes();
-  }, [])
+  }, [selectCity])
 
 
   return (

@@ -11,12 +11,9 @@ function App() {
       <Container>
         <Row className='mt-5 mb-5'>
           <Col lg={6}>
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
+            <Post title="How To Study English" description="this topic show how to study english" />
+            <Post title="Best Sales On Steam Games" description="this topic show sales on steam" />
+            <Post title="Recover Health In Many Ways" description="this topic show health recover ways" />
           </Col>
           <Col lg={4}>
             <SideMenu />

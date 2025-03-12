@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&display=swap');
+
+.down-title h5 {
+  font-family: 'Amiri', serif;
+  font-weight: bold;
+  font-size: 24px;
+  direction: rtl;
+  text-align: center;
+}

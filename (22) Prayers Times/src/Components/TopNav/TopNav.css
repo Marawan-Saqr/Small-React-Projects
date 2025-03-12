@@ -7,3 +7,11 @@
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
+
+.top-nav select {
+  border: none;
+  background-color: brown;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 5px;
+}

@@ -7,23 +7,12 @@ const SideMenu = () => {
   return (
     <div className='side-menu'>
       <div className='d-flex justify-content-around'>
-      <ButtonComp />
-      <ButtonComp />
-      </div>
-      <div className='d-flex justify-content-around'>
-      <ButtonComp />
-      <ButtonComp />
-      </div>
-      <div className='d-flex justify-content-around'>
-      <ButtonComp />
-      <ButtonComp />
-      </div>
-      <div className='d-flex justify-content-around'>
-      <ButtonComp />
-      <ButtonComp />
-      </div>
-      <div className='d-flex justify-content-center'>
-      <ButtonComp />
+      <ButtonComp>
+        <img src="./image.jpg" style={{width: "35px"}} />
+      </ButtonComp>
+      <ButtonComp>
+
+      </ButtonComp>
       </div>
     </div>
   )

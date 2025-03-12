@@ -1,3 +1,16 @@
+@media (max-width: 767px) {
+  .prayers-card {
+    margin: 25px 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .prayers-card {
+    margin: 25px 0px;
+  }
+}
+
+
 .prayers-card .card {
   background-color: #eec555;
   position: relative;

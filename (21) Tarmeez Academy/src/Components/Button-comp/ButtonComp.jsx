@@ -1,11 +1,15 @@
-import './ButtonComp.css';
+import "./ButtonComp.css";
 
-const ButtonComp = () => {
+const ButtonComp = ({ children }) => {
   return (
-    <div className='tag-button'>
-      <button>Tag Button</button>
+    <div className="tag-button">
+      <button style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
+        Tag Button
+        {children}
+      </button>
     </div>
-  )
-}
+  );
+};
+
 
 export default ButtonComp;
