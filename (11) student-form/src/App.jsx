@@ -1,11 +1,11 @@
-import StudentForm from './StudentForm.jsx';
+import StudentForm from './StudentForm/StudentForm.jsx';
 
 function App() {
   return (
     <div>
       <StudentForm />
     </div>
-  );
+  )
 }
 
 
