@@ -1,0 +1,13 @@
+.mobiles h1 {
+  margin: 0px;
+}
+
+.mobiles h1 span {
+  color: orangered;
+}
+
+.mobiles h1,
+.mobiles form label {
+  font-weight: bold;
+  font-style: italic;
+}
