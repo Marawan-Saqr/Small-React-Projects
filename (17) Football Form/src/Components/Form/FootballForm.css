@@ -1,0 +1,15 @@
+.football-form h1 {
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.football-form form {
+  border: 2px solid #d615156c;
+  padding: 15px 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  background-color: #f7f7f7;
+}
