@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import TopNav from "./Components/TopNav.jsx";
 import Home from "./Components/Home.jsx";
 import About from "./Components/About.jsx";
+import Posts from './Components/Posts.jsx';
 import PostsList from "./Components/PostsList.jsx";
 import PostDetails from './Components/PostDetails.jsx';
 import NewPost from './Components/NewPost.jsx';
@@ -19,7 +20,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           {/* Posts Routes */}
-          <Route path="/posts">
+          <Route path="/posts" element={<Posts />}>
             <Route index element={<PostsList />} />
             <Route path="postDetails/:postID" element={<PostDetails />} />
             <Route path="new-post" element={<NewPost />} />
